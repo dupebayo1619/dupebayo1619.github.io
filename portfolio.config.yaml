@@ -133,6 +133,45 @@ projects:
     liveUrl: ""
     repoUrl: "https://github.com/dupebayo1619/cloudopshub"
     featured: true
+   
+  - name: "StackBridge — Internal Platform for Orders & Users"
+    description: |
+      An internal developer platform built with Flask, PostgreSQL, Redis, and 
+      Docker Compose for local development. Features a Python CLI for environment 
+      management, Terraform modules for AWS infrastructure (EKS, RDS, VPC), 
+      GitOps with ArgoCD for automated deployments, canary rollouts with Argo 
+      Rollouts, and a full observability stack (Prometheus, Grafana, Loki). 
+      Includes chaos engineering scripts for resilience testing and OPA policies 
+      for security compliance.
+    tags: 
+      - Flask
+      - Python
+      - PostgreSQL
+      - Redis
+      - Docker
+      - Kubernetes
+      - Terraform
+      - AWS EKS
+      - ArgoCD
+      - Argo Rollouts
+      - Prometheus
+      - Grafana
+      - Loki
+      - GitOps
+      - Chaos Engineering
+      - OPA
+    liveUrl: "https://dupebayo1619.github.io/stackbridge"
+    repoUrl: "https://github.com/dupebayo1619/stackbridge"
+    featured: true
+    highlights:
+      - "Flask application with multiprocess-safe Prometheus metrics endpoint"
+      - "Python CLI with environment create/destroy/status commands"
+      - "Terraform modules for EKS, networking, database, and storage"
+      - "ArgoCD GitOps with canary rollouts via Argo Rollouts"
+      - "Observability stack: Prometheus, Grafana, Loki"
+      - "Chaos engineering tests for resilience validation"
+      - "OPA policies for security and tagging compliance"
+      - "Local development with docker-compose (PostgreSQL, Redis, Adminer)"
 
 # ── Education ──────────────────────────────────────────────────────────
 education:
