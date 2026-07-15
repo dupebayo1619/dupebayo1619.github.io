@@ -14,10 +14,28 @@ avatarUrl: "https://api.dicebear.com/9.x/fun-emoji/svg?seed=Alex&mouth[]=wideSmi
 # ── Status ─────────────────────────────────────────────────────────────
 openToWork: true
 
+# ── Theme ──────────────────────────────────────────────────────────────
+defaultTheme: "system"   # Options: light | dark | system
+colorPreset: "indigo"    # Options: indigo | emerald | rose | amber | ocean | slate | custom
+
 # ── Social links ──────────────────────────────────────────────────────
 social:
   github: "https://github.com/dupebayo1619"
   linkedin: "https://www.linkedin.com/in/modupeoluwaadebayo"
+  
+# ── Section visibility ─────────────────────────────────────────────────
+sections:
+  - { id: about,          show: true  }
+  - { id: stats,          show: false }
+  - { id: skills,         show: true  }
+  - { id: languages,      show: false }
+  - { id: experience,     show: true  }
+  - { id: projects,       show: true  }
+  - { id: education,      show: true  }
+  - { id: certifications, show: true  }
+  - { id: publications,   show: false }
+  - { id: testimonials,   show: false }
+  - { id: contact,        show: true  }
 
 # ── About ──────────────────────────────────────────────────────────────
 about: |
